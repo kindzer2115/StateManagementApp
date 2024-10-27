@@ -23,7 +23,7 @@
         android:id="@+id/buttonEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Test"
+        android:text="Tekst"
         />
     <CheckBox
         android:text = "Wyświetl ukryte"
@@ -32,11 +32,18 @@
         android:layout_height="wrap_content"
         />
     <Switch
-        android:id="@+id/button_Switch"
+        android:id="@+id/switchDarkMode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Motyw aplikacji"
         />
+
+    <TextView
+        android:id="@+id/textViewCheckStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>
 
